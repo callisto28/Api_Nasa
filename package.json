@@ -6,7 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Seb4Dev",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callisto28/Api_Nasa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/callisto28/Api_Nasa/issues"
+  },
+  "homepage": "https://github.com/callisto28/Api_Nasa#readme"
 }
