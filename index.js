@@ -1,4 +1,3 @@
-// require('dotenv').config();
 const nasa1 = document.querySelector(".nasa1");
 const explication = document.querySelector(".detail");
 const imageTexte = document.querySelector(".imgText");
@@ -7,7 +6,7 @@ const image = document.querySelector(".img");
 
 
 const api = "wVFgJbKMy3w572mhbYv39N9r1YgW1zfCaDUClwOO";
-// const api = process.env.API_KEY;
+
 
 let day = new Date()
 let daytoday = day.toLocaleDateString()

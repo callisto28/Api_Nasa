@@ -13,31 +13,36 @@
   </head>
 
   <body>
-   
-        <div id="glob">
+    <div id="glob">
       <h2 class="imgText"></h2>
+      <div class="truc">
+        <h3 class="grid-item">
+          <span class="nasa1"> </span>
+        </h3>
+      </div>
       <div class="grid">
-        <div>
-          <h3 class="grid-item"><span class="nasa1">  </span></h3>
-        </div>
-        <div class="grid-item--width3" data-aos="flip-left" max-width="100%" aria-hidden="true">
+        <div
+          class="truc grid-item--width3"
+          data-aos="flip-left"
+          aria-hidden="true"
+        >
           <img
             class="img"
             src=""
             alt="NASA Picture Of The Day"
             max-width="100%"
-            height="500px"
+            height="450px"
           />
         </div>
-        <div class="grid-item--width1 detail"></div>
+        <div class="truc">
+          <p class="grid-item--width1 detail"></p>
+        </div>
       </div>
-
-     
     </div>
-  
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -9,7 +9,6 @@
   "author": "Seb4Dev",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^10.0.0",
     "eslint": "^7.32.0"
   },
   "repository": {
